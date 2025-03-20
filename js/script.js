@@ -2,7 +2,7 @@
 Chiedi all’utente la sua email, controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato sull’esito del controllo, utilizzando un ciclo for. 
 Non è consentito usare nessun metodo proprio degli array (come includes, per esempio). 
 Si può fare? Certo che si basta ragionare un po’. 
-Nota: Non è necessario provvedere alla validazione delle email.*/
+Nota: Non è necessario provvedere alla validazione delle email. */
 
 //----------SCOMPONIAMO IL PROBLEMA----------
 // 1. Creiamo un array che contenga una lista di email
@@ -40,4 +40,16 @@ if(accessoGarantito){
 else{
     console.log('Spiacente, non sei invitato alla festa.')
 }
+
+
+/* Generare un numero random da 1 a 6, sia per il giocatore sia per il computer. 
+Stabilire il vincitore, in base a chi fa il punteggio più alto. */
+
+//----------SCOMPONIAMO IL PROBLEMA----------
+// 1.Dichiarare una variabile con valore random per il giocatore
+// 2.Dichiarare una variabile con valore random per il computer 
+// 3. Stabilire il vincitore in base al punteggion più alto
+
+
+
 
