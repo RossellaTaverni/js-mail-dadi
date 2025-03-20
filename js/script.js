@@ -7,5 +7,37 @@ Nota: Non è necessario provvedere alla validazione delle email.*/
 //----------SCOMPONIAMO IL PROBLEMA----------
 // 1. Creiamo un array che contenga una lista di email
 // 2. Dichiariamo una variabile per l'inserimento dell'email dell'utente
+// 3. Dichiaro una variabile per tenere traccia se l'email è trovata
 // 3. Controlliamo se l'email dell'utente è presente nell'array tramite un ciclo for
 // 4. Stampiamo messaggio appropriato sull'esito del controllo
+
+let emailList = [
+    'rossellataverni@gmail.com',
+    'enricotaverni@gmail.com',
+    'luigitaverni@gmail.com',
+    'mariataverni@gmail.com',
+    'asiataverni@gmail.com',
+    'vitotaverni@gmail.com',
+    'ludovicataverni@gmail.com',
+    'roccotaverni@gmail.com',
+    'alessandrotaverni@gmail.com',
+    'celestetaverni@gmail.com',
+];
+
+let userEmail = prompt('Inserisci la tua email');
+let accessoGarantito;
+
+for(let i = 0; i < emailList.length; i++){
+    if(emailList[i] === userEmail) {
+        accessoGarantito = true;
+        break;
+    }
+}
+
+if(accessoGarantito){
+    console.log('Accesso consentito! Benvenuto alla festa!')
+}
+else{
+    console.log('Spiacente, non sei invitato alla festa.')
+}
+
