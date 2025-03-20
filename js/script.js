@@ -50,6 +50,18 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto. */
 // 2.Dichiarare una variabile con valore random per il computer 
 // 3. Stabilire il vincitore in base al punteggion più alto
 
+let randomNumberPc = Math.floor(Math.random() * 6 + 1);
+console.log(randomNumberPc)
+
+let randomNumberPlayer = Math.floor(Math.random() * 6 + 1);
+console.log(randomNumberPlayer)
+
+if(randomNumberPc >= randomNumberPlayer){
+    console.log('Spiacente Player, hai perso')
+}
+else{
+    console.log('Congratulazioni Player! Hai vinto contro il computer!')
+}
 
 
 
